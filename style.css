@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('background\ image.png');
+    background-color: #f6f966;
+    
+}
+header{
+   
+}
+.left{
+    /*border: 2px solid rebeccapurple;*/
+    width: 50%;
+    position: relative;
+    left: 30px;
+    top: 12px;
+}
+.btn li{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+.btn a{
+    font-family: Roboto;
+    text-decoration: none;
+    color: #8b922d;
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 15px;
+}
+.btn a:hover{
+    background-color: rgb(24, 24, 18);
+    text-decoration: underline;
+    border-radius: 5px;
+}
+.quote{
+    /*border: 2px solid black;*/
+    width: 33%;
+    font-family: Poppins;
+    font-size: 18px;
+    position: relative;
+    top: 144px;
+    left: 150px;
+}
+.quote button{
+    font-family: Roboto;
+    /*font-weight: 2000;*/
+    padding: 7px 7px;
+    cursor: pointer;
+    margin: 18px 127px;
+    border-radius: 3px;
+    background-color: #f6ff8a;
+    font-size: 15px;
+}
+.quote button:hover{
+    
+}
