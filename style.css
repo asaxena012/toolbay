@@ -1,57 +1,91 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background: url('background\ image.png');
-    background-color: #f6f966;
-    
+/* Colors
+
+ Yellow : #fbff26
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header{
-   
+
+body {
+  height: 100vh;
+  font-family: Poppins;
 }
-.left{
-    /*border: 2px solid rebeccapurple;*/
-    width: 50%;
-    position: relative;
-    left: 30px;
-    top: 12px;
+
+header {
+  height: 100vh;
+  background-color: black;
+  background-image: url("background\ image.png");
+  background-size: cover;
+  overflow: hidden;
 }
-.btn li{
-    display: inline-block;
-    padding: 0px 10px 0px 10px;
+
+.left {
+  width: 50%;
+  position: relative;
+  left: 3.2%;
+  top: 48px;
 }
-.btn a{
-    font-family: Roboto;
-    text-decoration: none;
-    color: #8b922d;
-    cursor: pointer;
-    font-size: 18px;
-    padding-left: 18px;
-    padding-right: 15px;
+
+.btn li {
+  display: inline-block;
+  padding: 0px 10px 0px 10px;
 }
-.btn a:hover{
-    background-color: rgb(24, 24, 18);
-    text-decoration: underline;
-    border-radius: 5px;
+
+.btn a {
+  font-family: Roboto;
+  text-decoration: none;
+  color: #353535;
+  cursor: pointer;
+  font-size: 120%;
+  padding: 0.7rem;
 }
-.quote{
-    /*border: 2px solid black;*/
-    width: 33%;
-    font-family: Poppins;
-    font-size: 18px;
-    position: relative;
-    top: 144px;
-    left: 150px;
+.btn a:hover {
+  background-color: #fbff26e3;
+  /* text-decoration: underline; */
+  border-radius: 5px;
 }
-.quote button{
-    font-family: Roboto;
-    /*font-weight: 2000;*/
-    padding: 7px 7px;
-    cursor: pointer;
-    margin: 18px 127px;
-    border-radius: 3px;
-    background-color: #f6ff8a;
-    font-size: 15px;
+
+/* Button Active CSS */
+.active {
+  font-weight: bold;
+  font-size: 130% !important;
 }
-.quote button:hover{
-    
+
+.quote {
+  font-size: 18px;
+  position: relative;
+  top: 25%;
+  left: 5%;
+  line-height: 185%;
+}
+
+.quote h1 {
+  margin: 2.2rem 0rem;
+  font-size: 3rem;
+  color: #353535;
+}
+
+.quote p {
+  margin-bottom: 4rem;
+  max-width: 500px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #818181;
+}
+
+.primary-button {
+  font-size: 90%;
+  text-decoration: none;
+  color: #333;
+  border-radius: 1rem;
+  padding: 0.7rem 0.9rem;
+  margin: 100px 0px;
+  background-color: #f6ff8a;
+  box-shadow: 2px 2px 7px #666;
+  outline: none;
+  border: none;
 }
