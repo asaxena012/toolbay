@@ -68,7 +68,11 @@ header {
   font-size: 3rem;
   color: #353535;
   line-height: 140%;
-  font-weight: bold;
+  font-weight: 500;
+}
+
+.quote h1 span {
+  font-weight: 500;
 }
 
 .quote p {
