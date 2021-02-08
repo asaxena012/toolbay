@@ -95,3 +95,54 @@ header {
   outline: none;
   border: none;
 }
+
+/* reusable components */
+.row {
+  width: 92%;
+  margin: 2.5rem auto;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #333;
+}
+
+.inverted {
+  color: #222;
+  font-weight: 500;
+  border-bottom: 7px solid #f6ff8a;
+}
+
+/* section projects */
+.section-projects {
+  height: 100vh;
+  padding: 0.6rem 0rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 52vh;
+  border: 1.5px solid #333;
+  border-bottom: none;
+}
+
+.card img {
+  margin: 2rem 0rem;
+  max-width: 85%;
+  max-height: 60.8%;
+  align-self: center;
+}
+
+.card p {
+  padding: 0rem 0rem 3rem 1rem;
+  /* background-color: #faffc2; */
+}
+
+.cards-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
