@@ -117,7 +117,6 @@ header {
 /* section projects */
 .section-projects {
   height: 100vh;
-  padding: 0.6rem 0rem;
 }
 
 .card {
@@ -126,7 +125,6 @@ header {
   width: 30%;
   height: 52vh;
   border: 1.5px solid #333;
-  border-bottom: none;
 }
 
 .card img {
@@ -145,4 +143,42 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5rem;
+}
+
+/* Tutorials Section */
+.section-tut {
+  height: 100vh;
+}
+
+.tut-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.tut-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.tut-col:first-child {
+  margin-right: 3.5rem;
+}
+
+.tut-col:last-child {
+  margin-left: 3.5rem;
+}
+
+.tut-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.tut-row p {
+  margin-left: 1.5rem;
+}
+
+.tut-col:first-child p {
+  margin: 1.3rem 0rem;
+  font-size: 1.95rem;
 }
