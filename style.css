@@ -7,6 +7,7 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -91,6 +92,7 @@ header {
   padding: 0.7rem 0.9rem;
   margin: 100px 0px;
   background-color: #f6ff8a;
+  -webkit-box-shadow: 2px 2px 7px #666;
   box-shadow: 2px 2px 7px #666;
   outline: none;
   border: none;
@@ -120,7 +122,12 @@ header {
 }
 
 .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 30%;
   height: 52vh;
@@ -131,6 +138,7 @@ header {
   margin: 2rem 0rem;
   max-width: 85%;
   max-height: 60.8%;
+  -ms-flex-item-align: center;
   align-self: center;
 }
 
@@ -140,7 +148,11 @@ header {
 }
 
 .cards-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 5rem;
 }
@@ -151,12 +163,22 @@ header {
 }
 
 .tut-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
 }
 
 .tut-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -169,7 +191,12 @@ header {
 }
 
 .tut-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   margin-bottom: 2rem;
 }
