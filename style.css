@@ -19,7 +19,7 @@ body {
 header {
   height: 100vh;
   background-color: black;
-  background-image: url("background\ image.png");
+  background-image: url("assets/style-images/background-image.png");
   background-size: cover;
   overflow: hidden;
 }
