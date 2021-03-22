@@ -35,7 +35,7 @@ window.onload = function () {
     let allProdHtml = "";
 
     prod.forEach(function (element) {
-      allProdHtml += `<div class="card">
+      allProdHtml += `<div class="card" id= "${element}" onclick="openProduct(e)">
              <img src="assets/product-images/${element}.png" alt="" />
              <p>${getNameString(element)}</p>
            </div>`;
@@ -55,7 +55,7 @@ window.onload = function () {
     prod.forEach(function (element) {
       if (element.includes(inputVal)) {
         console.log(element);
-        html += `<div class="card">
+        html += `<div class="card" id= "${element}">
              <img src="assets/product-images/${element}.png" alt="" />
              <p>${getNameString(element)}</p>
            </div>`;
@@ -66,4 +66,16 @@ window.onload = function () {
       part.innerHTML = `${allProdHtml(prod)}`;
     }
   });
+
+  // const cardsEl = document.querySelectorAll(".card");
+
+  // cardsEl.forEach((card) => {
+  //   card.addEventListener("click", (e) => {
+  //     console.log(card.id);
+  //   });
+  // });
+};
+
+const openProduct = function (event) {
+  console.log(event);
 };
