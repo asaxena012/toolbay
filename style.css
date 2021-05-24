@@ -214,3 +214,32 @@ header {
   margin: 1.3rem 0rem;
   font-size: 1.95rem;
 }
+
+/* Footer */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding: 2rem 4rem;
+  background-color: #fbff26;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.footer-list {
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-item a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+.footer-item {
+  margin: 1rem 0rem;
+}
