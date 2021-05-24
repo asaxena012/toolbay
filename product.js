@@ -61,19 +61,17 @@ window.onload = function () {
            </div>`;
       }
       part.innerHTML = html;
+
+      if (html == "") {
+        part.innerHTML = `
+          <div class= "no-product-text"> Sorry! No such products found, suggest us the product at akshay@toolbay.in and we'll add it to our list!</div>
+        `;
+      }
     });
     if (search.value == "") {
       part.innerHTML = `${allProdHtml(prod)}`;
     }
   });
-
-  // const cardsEl = document.querySelectorAll(".card");
-
-  // cardsEl.forEach((card) => {
-  //   card.addEventListener("click", (e) => {
-  //     console.log(card.id);
-  //   });
-  // });
 };
 
 const openProduct = function (event) {

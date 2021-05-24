@@ -69,6 +69,12 @@
   outline: none;
 }
 
+.no-product-text {
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
+}
+
 /* Cards Reusable */
 
 .card-container {
